@@ -11,6 +11,7 @@ class Footer extends Component {
             className="text-blue-600 border-b-2 border-white hover:border-blue-600"
             href="https://reactjs.org/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             React
           </a>{" "}
