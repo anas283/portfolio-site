@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="flex justify-center bg-gray-100 w-full h-full">
-        <div className="w-full flex justify-between px-4 md:w-3/5 md:justify-end">
+        <div className="w-full flex justify-between px-4 md:w-3/5 sm:justify-end">
           <button className="mt-4 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
             Project
           </button>
