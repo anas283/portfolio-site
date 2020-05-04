@@ -1,20 +1,27 @@
 import React, { Component } from "react";
 import NightMode from "../images/nightmode.png";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
     return (
       <div className="flex justify-center bg-gray-100 max-w-4xl mx-auto h-full">
         <div className="w-full flex justify-between sm:justify-end">
-          <button className="mt-4 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
-            Project
-          </button>
-          <button className="mt-4 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
-            Home
-          </button>
-          <button className="mt-4 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
-            About
-          </button>
+          <Link to="/project">
+            <button className="mt-6 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
+              Project
+            </button>
+          </Link>
+          <Link to="/">
+            <button className="mt-6 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
+              Home
+            </button>
+          </Link>
+          <Link to="/about">
+            <button className="mt-6 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
+              About
+            </button>
+          </Link>
           <button className="mt-4 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
             Contact
           </button>

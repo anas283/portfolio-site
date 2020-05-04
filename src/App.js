@@ -1,16 +1,25 @@
 import React from "react";
 import "./styles/app.css";
+import Project from "./components/project";
 import Home from "./components/home";
+import About from "./components/about";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App bg-gray-100">
-      <Navbar />
-      <Home />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App bg-gray-100">
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/project" component={Project} />
+          <Route paht="/about" component={About} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
