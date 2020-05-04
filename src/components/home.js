@@ -14,10 +14,10 @@ class Home extends Component {
             a beautiful place.
           </p>
           <div className="w-full flex items-center mt-20 mb-32 flex-col md:items-start md:mt-2 md:flex-row md:mb-64">
-            <button className="bg-black rounded text-white w-40 h-12 mt-8">
+            <button className="bg-black rounded text-white w-40 h-12 mt-8 hover:bg-gray-900">
               Project
             </button>
-            <button className="border border-black rounded w-40 h-12 mt-2 md:mt-8 md:ml-2">
+            <button className="border border-black rounded w-40 h-12 mt-2 md:mt-8 md:ml-2 hover:bg-gray-200">
               Resume
             </button>
           </div>
