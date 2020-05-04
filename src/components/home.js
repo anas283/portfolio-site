@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import "../components/home.css";
 
 class Home extends Component {
   state = {};
   render() {
     return (
-      <div className="flex justify-center bg-gray-100 w-full h-full">
+      <div className="flex justify-center bg-gray-100 w-full h-screen">
         <div className="w-full px-6 mt-24 md:w-4/5 lg:w-3/5 md:mt-32">
           <h1 className="text-5xl font-bold md:text-6xl">Hello, I'm Anas</h1>
           <p className="w-full font-hairline text-gray-700 text-md mt-6 md:w-4/5 md:text-lg">
