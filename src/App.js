@@ -13,7 +13,7 @@ function App() {
       <div className="App bg-gray-100">
         <Navbar />
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/project" component={Project} />
           <Route path="/about" component={About} />
         </Switch>

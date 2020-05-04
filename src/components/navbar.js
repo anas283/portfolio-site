@@ -12,7 +12,7 @@ class Navbar extends Component {
               Project
             </button>
           </Link>
-          <Link to="/">
+          <Link to="/home">
             <button className="mt-6 ml-4 border-b-2 border-gray-100 hover:border-black focus:outline-none md:mx-4">
               Home
             </button>
