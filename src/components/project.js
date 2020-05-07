@@ -17,7 +17,7 @@ class Project extends Component {
               src={LandingPage}
               alt=""
             />
-            <button className="border border-black w-full h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
+            <button className="border border-black w-32 h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
               Visit
             </button>
           </div>
@@ -28,7 +28,7 @@ class Project extends Component {
               src={Dashboard}
               alt=""
             />
-            <button className="border border-black w-full h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
+            <button className="border border-black w-32 h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
               Visit
             </button>
           </div>
@@ -41,7 +41,7 @@ class Project extends Component {
               src={ShoeShop}
               alt=""
             />
-            <button className="border border-black w-full h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
+            <button className="border border-black w-32 h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
               Visit
             </button>
           </div>
