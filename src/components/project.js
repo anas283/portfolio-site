@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LandingPage from "../images/landing-page.jpg";
+import LandingPage from "../images/landing-page.png";
 import Dashboard from "../images/dashboard.png";
 import ShoeShop from "../images/shoe-shop.jpg";
 
