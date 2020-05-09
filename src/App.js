@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <div className={darkMode ? "dark-mode" : "light-mode"}>
-        <div className="flex justify-center max-w-4xl mx-auto h-full">
+        <div className="px-2 flex justify-center max-w-4xl mx-auto h-full">
           <div className="w-full flex justify-between sm:justify-end">
             <Link
               to="/project"
@@ -45,7 +45,7 @@ function App() {
               Contact
             </Link>
             <button
-              className="flex justify-center w-10 h-10 mt-4 mx-3 focus:outline-none"
+              className="flex justify-center w-10 h-10 mt-4 mx-2 focus:outline-none"
               onClick={() => setDarkMode((prevMode) => !prevMode)}
             >
               <img

@@ -10,11 +10,13 @@ body {
 .light-mode {
   background-color: #f7fafc;
   color: black;
+  -webkit-transition: background 0.5s ease 0s !important;
 }
 
 .dark-mode {
   background-color: rgb(14, 14, 14);
   color: white;
+  -webkit-transition: background 0.5s ease 0s !important;
 }
 
 .dark-mode nav {
