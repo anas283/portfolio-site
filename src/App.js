@@ -6,6 +6,7 @@ import About from "./components/about";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import NightMode from "./images/nightmode.png";
+import DayMode from "./images/daymode.png";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -44,10 +45,14 @@ function App() {
               Contact
             </Link>
             <button
-              className="flex justify-center w-10 h-10 mt-4 mx-3 bg-gray-200 border border-gray-200 rounded hover:bg-gray-300 focus:outline-none"
+              className="flex justify-center w-10 h-10 mt-4 mx-3 focus:outline-none"
               onClick={() => setDarkMode((prevMode) => !prevMode)}
             >
-              <img className="w-4 h-4" src={NightMode} alt="" />
+              <img
+                className="w-4 h-4"
+                src={darkMode ? DayMode : NightMode}
+                alt=""
+              />
             </button>
           </div>
         </div>
