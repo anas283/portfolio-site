@@ -4,11 +4,11 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div className="bg-white flex justify-center my-6 max-w-full">
+      <div className="flex justify-center my-6 max-w-full">
         <h6 className="mt-4">
           Build with{" "}
           <a
-            className="text-blue-600 border-b-2 border-white hover:border-blue-600"
+            className="text-blue-600"
             href="https://reactjs.org/"
             target="_blank"
             rel="noopener noreferrer"

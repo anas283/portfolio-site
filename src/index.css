@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.light-mode {
+  background-color: #f7fafc;
+  color: black;
+}
+
+.dark-mode {
+  background-color: rgb(14, 14, 14);
+  color: white;
+}
+
+.dark-mode nav {
+  background-color: black;
+}
+
 code {
   font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
