@@ -4,14 +4,13 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <div className="flex justify-center my-6 max-w-full">
-        <h6 className="mt-4">
-          Build with{" "}
+      <div>
+        <h6 className="text-center p-4">
+          Build with react{" "}
           <a
-            className="text-blue-600"
             href="https://reactjs.org/"
             target="_blank"
-            rel="noopener noreferrer"
+            className="text-teal-500 border-b-2 border-teal-500"
           >
             React
           </a>{" "}

@@ -3,7 +3,6 @@ import "./styles/app.css";
 import Home from "./components/home";
 import Project from "./components/project";
 import About from "./components/about";
-import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import NightMode from "./images/nightmode.png";
 import DayMode from "./images/daymode.png";
@@ -12,10 +11,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [darkMode, setDarkMode] = React.useState(getInitialMode());
+
+  // save dark mode in localstorage
   React.useEffect(() => {
     localStorage.setItem("dark", JSON.stringify(darkMode));
   }, [darkMode]);
 
+  // get dark mode from localstorage
   function getInitialMode() {
     const savedMode = JSON.parse(localStorage.getItem("dark"));
     return savedMode || false;

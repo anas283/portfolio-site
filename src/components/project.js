@@ -10,40 +10,19 @@ class Project extends Component {
       <div className="p-4 max-w-4xl mx-auto h-full">
         <h1 className="mt-4 text-lg font-semibold">Static website</h1>
         <div className="md:flex justify-start">
-          <div className="h-full p-4 mt-4 text-center rounded bg-white shadow-md md:w-1/2 md:mr-2">
-            <h5 className="-mt-2">Landing page</h5>
-            <img
-              className="mt-2 border border-gray-200 rounded"
-              src={LandingPage}
-              alt=""
-            />
-            <button className="border border-black w-32 h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
-              Visit
-            </button>
+          <div className="bg-gray-900 h-full p-4 mt-4 text-center rounded shadow-md md:w-1/2 md:mr-2">
+            <h5 className="-mt-2 text-white">Landing page</h5>
+            <img className="mt-2 rounded" src={LandingPage} alt="" />
           </div>
-          <div className="h-full p-4 mt-4 text-center rounded bg-white shadow-md md:w-1/2 md:ml-2">
-            <h5 className="-mt-2">Dashboard</h5>
-            <img
-              className="mt-2 border border-gray-200 rounded"
-              src={Dashboard}
-              alt=""
-            />
-            <button className="border border-black w-32 h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
-              Visit
-            </button>
+          <div className="bg-gray-900 h-full p-4 mt-4 text-center rounded shadow-md md:w-1/2 md:ml-2">
+            <h5 className="-mt-2 text-white">Dashboard</h5>
+            <img className="mt-2 rounded" src={Dashboard} alt="" />
           </div>
         </div>
         <div className="md:flex justify-start">
-          <div className="h-full p-4 mt-4 text-center rounded bg-white shadow-md md:w-1/2 md:mr-2">
-            <h5 className="-mt-2">Shoe shop</h5>
-            <img
-              className="mt-2 border border-gray-200 rounded"
-              src={ShoeShop}
-              alt=""
-            />
-            <button className="border border-black w-32 h-10 mt-4 bg-black text-white rounded hover:border hover:border-black hover:bg-white hover:text-black transition duration-200">
-              Visit
-            </button>
+          <div className="bg-gray-900 h-full p-4 mt-4 text-center rounded shadow-md md:w-1/2 md:mr-2">
+            <h5 className="-mt-2 text-white">Shoe shop</h5>
+            <img className="mt-2 rounded" src={ShoeShop} alt="" />
           </div>
         </div>
       </div>
