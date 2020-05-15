@@ -7,7 +7,7 @@ class Project extends Component {
   render() {
     return (
       <div className="p-4 max-w-4xl mx-auto h-screen">
-        <h1 className="mt-4 text-lg font-semibold">My latest projects</h1>
+        <h1 className="mt-4 text-lg font-semibold">My latest project</h1>
         <div className="flex flex-col md:justify-start">
           <a
             href="https://magnes-page.netlify.app/"
