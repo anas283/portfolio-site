@@ -11,7 +11,7 @@ const Home = () => {
           responsive design. With every line of code, I strive to make the web a
           beautiful place.
         </p>
-        <p className="w-full font-normal text-lg mt-4 md:w-4/5 md:text-lg">
+        <p className="w-full font-normal mt-4 md:w-4/5 md:text-lg">
           If you have any development needs, feel free to{" "}
           <Link
             to="/contact"
