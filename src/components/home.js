@@ -13,13 +13,19 @@ const Home = () => {
         </p>
         <p className="w-full font-normal text-lg mt-4 md:w-4/5 md:text-lg">
           If you have any development needs, feel free to{" "}
-          <a href="#" className="text-teal-500 underline hover:text-teal-600">
+          <Link
+            to="/contact"
+            className="text-teal-500 underline hover:text-teal-600"
+          >
             contact
-          </a>{" "}
+          </Link>{" "}
           or{" "}
-          <a href="#" className="text-teal-500 underline hover:text-teal-600">
+          <Link
+            to="/about"
+            className="text-teal-500 underline hover:text-teal-600"
+          >
             get to know me little better
-          </a>
+          </Link>
           .
         </p>
         <div className="w-full flex items-center mt-16 mb-32 flex-col md:items-start md:mt-2 md:flex-row md:mb-64">

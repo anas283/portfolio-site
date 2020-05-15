@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import LandingPage from "../images/landing-page.png";
-import Dashboard from "../images/dashboard.png";
 
 class Project extends Component {
   state = {};
