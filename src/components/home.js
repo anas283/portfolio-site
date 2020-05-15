@@ -6,7 +6,7 @@ const Home = () => {
     <div className="flex justify-center max-w-4xl mx-auto max-h-full h-screen">
       <div className="w-full px-6 mt-16 md:mt-32">
         <h1 className="text-6xl font-bold w-5/6">Hello, I'm Anas</h1>
-        <p className="w-full font-normal text-lg mt-6 md:w-4/5 md:text-lg">
+        <p className="w-full font-normal mt-6 md:w-4/5 md:text-lg">
           I'm a freelance front-end developer, my expertise is in the area of
           responsive design. With every line of code, I strive to make the web a
           beautiful place.

@@ -21,7 +21,7 @@ class About extends Component {
           </div>
         </div>
         <div className="mt-10">
-          <p className="font-normal text-lg">
+          <p className="font-normal md:text-lg">
             Hi, my name is Anas. I'm a freelance front-end developer with 6
             months of experience. I have designed numerous websites and coding
             as well.
