@@ -30,24 +30,30 @@ function App() {
           <div className="w-full flex justify-between sm:justify-end">
             <Link
               to="/project"
-              className="mt-6 ml-4 focus:outline-none md:mx-4"
+              className="mt-6 ml-4 border-b-2 border-transparent transition duration-100 hover:border-gray-500 focus:outline-none md:mx-4"
             >
               Project
             </Link>
-            <Link to="/" className="mt-6 ml-4 focus:outline-none md:mx-4">
+            <Link
+              to="/"
+              className="mt-6 ml-4 border-b-2 border-transparent transition duration-100 hover:border-gray-500 focus:outline-none md:mx-4"
+            >
               Home
             </Link>
-            <Link to="/about" className="mt-6 ml-4 focus:outline-none md:mx-4">
+            <Link
+              to="/about"
+              className="mt-6 ml-4 border-b-2 border-transparent transition duration-100 hover:border-gray-500 focus:outline-none md:mx-4"
+            >
               About
             </Link>
             <Link
               to="/contact"
-              className="mt-6 ml-4 focus:outline-none md:mx-4"
+              className="mt-6 ml-4 border-b-2 border-transparent transition duration-100 hover:border-gray-500 focus:outline-none md:mx-4"
             >
               Contact
             </Link>
             <button
-              className="flex justify-center w-10 h-10 mt-4 mx-2 focus:outline-none"
+              className="flex justify-center rounded border-2 border-transparent transition duration-100 hover:border-gray-500 w-10 h-10 mt-4 mx-2 focus:outline-none"
               onClick={() => setDarkMode((prevMode) => !prevMode)}
             >
               <img
