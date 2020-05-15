@@ -3,6 +3,7 @@ import "./styles/app.css";
 import Home from "./components/home";
 import Project from "./components/project";
 import About from "./components/about";
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 import NightMode from "./images/nightmode.png";
 import DayMode from "./images/daymode.png";
@@ -68,6 +69,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Project} />
           <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>
