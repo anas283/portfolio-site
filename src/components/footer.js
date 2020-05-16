@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className="p-8">
         <h6 className="text-center">
-          Built with react{" "}
+          Built with{" "}
           <a
             href="https://reactjs.org/"
             target="_blank"
