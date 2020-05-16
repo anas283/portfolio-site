@@ -7,9 +7,9 @@ const Home = () => {
       <div className="w-full px-6 mt-16 md:mt-32">
         <h1 className="text-6xl font-bold w-5/6">Hello, I'm Anas</h1>
         <p className="w-full font-normal mt-6 md:w-4/5 md:text-lg">
-          I'm a freelance front-end developer, my expertise is in the area of
-          responsive design. With every line of code, I strive to make the web a
-          beautiful place.
+          I'm a Front-end Developer, my expertise is in the area of responsive
+          design. With every line of code, I strive to make the web a beautiful
+          place.
         </p>
         <p className="w-full font-normal mt-4 md:w-4/5 md:text-lg">
           If you have any development needs, feel free to{" "}
