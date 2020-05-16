@@ -12,7 +12,7 @@ class Contact extends Component {
           <p>
             My preferred way of contact is via{" "}
             <a
-              href="https://github.com/anas283"
+              href="https://twitter.com/anas_283"
               target="_blank"
               rel="noopener noreferrer"
               className="text-teal-500 underline hover:text-teal-600"
