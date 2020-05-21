@@ -10,12 +10,14 @@ body {
 .light-mode {
   background-color: #f7fafc;
   color: black;
+  transition: background 0.5s ease 0s !important;
   -webkit-transition: background 0.5s ease 0s !important;
 }
 
 .dark-mode {
   background-color: rgb(14, 14, 14);
   color: white;
+  transition: background 0.5s ease 0s !important;
   -webkit-transition: background 0.5s ease 0s !important;
 }
 

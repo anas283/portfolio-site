@@ -33,7 +33,7 @@ const Home = () => {
           </p>
           <div className="w-full flex items-center mt-16 mb-32 flex-col md:items-start md:mt-2 md:flex-row md:mb-64">
             <Link to="/project">
-              <button className="w-40 h-12 text-white rounded-full bg-teal-500 mt-10 hover:bg-teal-600">
+              <button className="w-40 h-12 text-white rounded-full bg-teal-500 mt-10 hover:bg-teal-600 transition duration-300">
                 View my work
               </button>
             </Link>
