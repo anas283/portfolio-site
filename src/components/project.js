@@ -7,10 +7,10 @@ class Project extends Component {
   render() {
     return (
       <div className="p-4 max-w-4xl mx-auto h-screen">
-        <h1 className="mt-4 text-lg font-bold md:text-2xl">
+        <h1 className="mt-4 px-2 text-lg font-bold md:text-2xl">
           My latest project
         </h1>
-        <p className="mt-2">
+        <p className="mt-2 px-2">
           All source code are available on{" "}
           <a
             href="https://github.com/anas283"
@@ -21,27 +21,31 @@ class Project extends Component {
             GitHub
           </a>
         </p>
-        <div className="flex flex-col mt-4 md:flex-row">
-          <div className="bg-gray-900 h-full p-4 mt-4 text-center rounded shadow-md md:w-1/2 md:mr-2">
-            <a
-              href="https://magnes-page.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h5 className="-mt-2 text-white">Landing page</h5>
-              <img className="mt-2 rounded" src={LandingPage} alt="" />
-            </a>
-          </div>
 
-          <div className="bg-gray-900 h-full p-4 mt-4 text-center rounded shadow-md relative md:w-1/2 md:mr-2">
-            <div className="w-full h-16 mt-16 p-0 mt-0 md:mt-20 -ml-4 absolute">
-              <h1 className="text-white mt-6 text-lg font-medium md:mt-6">
-                Coming soon
-              </h1>
+        <div className="w-auto h-auto mt-4 flex flex-wrap">
+          <a
+            className="w-full h-full p-2 sm:w-1/2"
+            href="https://magnes-page.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-full h-full bg-gray-900 rounded shadow-md p-4">
+              <h5 className="-mt-2 text-white text-center">Landing page</h5>
+              <img className="mt-2 rounded" src={LandingPage} alt="" />
             </div>
-            <h5 className="-mt-2 text-white opacity-25">Dashboard</h5>
-            <img className="mt-2 rounded opacity-25" src={Dashboard} alt="" />
-          </div>
+          </a>
+
+          <a
+            className="w-full h-full p-2 sm:w-1/2"
+            href="https://magnes-page.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-full h-full bg-gray-900 rounded shadow-md p-4">
+              <h5 className="-mt-2 text-white text-center">Dashboard</h5>
+              <img className="mt-2 rounded" src={Dashboard} alt="" />
+            </div>
+          </a>
         </div>
       </div>
     );
