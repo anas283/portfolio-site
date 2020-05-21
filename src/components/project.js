@@ -24,7 +24,7 @@ class Project extends Component {
 
         <div className="w-auto h-auto mt-4 flex flex-wrap">
           <a
-            className="w-full h-full p-2 sm:w-1/2"
+            className="land animated fadeInLeft w-full h-full p-2 sm:w-1/2"
             href="https://magnes-page.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -36,8 +36,8 @@ class Project extends Component {
           </a>
 
           <a
-            className="w-full h-full p-2 sm:w-1/2"
-            href="https://magnes-page.netlify.app/"
+            className="dash animated fadeInLeft w-full h-full p-2 sm:w-1/2"
+            href="https://sales-dashboard.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
