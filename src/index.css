@@ -1,60 +1,60 @@
 body {
-  margin: 0;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .light-mode {
-  background-color: #f7fafc;
-  color: black;
-  transition: background 0.5s ease 0s !important;
-  -webkit-transition: background 0.5s ease 0s !important;
+	background-color: #f7fafc;
+	color: black;
+	transition: background 0.5s ease 0s !important;
+	-webkit-transition: background 0.5s ease 0s !important;
 }
 
 .dark-mode {
-  background-color: rgb(14, 14, 14);
-  color: white;
-  transition: background 0.5s ease 0s !important;
-  -webkit-transition: background 0.5s ease 0s !important;
+	background-color: rgb(14, 14, 14);
+	color: white;
+	transition: background 0.5s ease 0s !important;
+	-webkit-transition: background 0.5s ease 0s !important;
 }
 
 .dark-mode nav {
-  background-color: black;
+  	background-color: black;
 }
 
 .hello {
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-  height: 100px;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+	height: 100px;
 }
 
 .text {
-  animation-delay: 0.9s;
-  -webkit-animation-delay: 0.9s;
-  height: 70px;
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+	height: 70px;
 }
 
 .land {
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
 }
 
 .dash {
-  animation-delay: 0.9s;
-  -webkit-animation-delay: 0.9s;
+  	animation-delay: 0.9s;
+  	-webkit-animation-delay: 0.9s;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 597px) {
-  .hello {
-    margin-bottom: 110px;
-  }
+	.hello {
+		margin-bottom: 110px;
+	}
 }
 
 code {
-  font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
