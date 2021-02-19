@@ -24,7 +24,7 @@ class About extends Component {
 					<p className="font-normal text-base mt-6">
 						I grew up in Alor Setar and went to school at Sungai Petani and 
 						just finished my last semester of diploma in Computer Science. I spend
-						my free time playing music and enjoying time with my family in 
+						my free time listening music and enjoying time with my family in 
 						Guar Chempedak, Kedah.
 					</p>
 				</div>
